@@ -38,7 +38,7 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="60">
               <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
@@ -499,7 +499,7 @@
       <workItem from="1550453225733" duration="4069000" />
       <workItem from="1550469389745" duration="4442000" />
       <workItem from="1550477533047" duration="1528000" />
-      <workItem from="1550479068825" duration="2422000" />
+      <workItem from="1550479068825" duration="2700000" />
     </task>
     <servers />
   </component>
@@ -536,7 +536,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49829000" />
+    <option name="totallyTimeSpent" value="50107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -559,10 +559,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.49746192" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.49407783" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2673435" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25791857" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4720812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25791857" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.3295626" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -1058,7 +1058,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="60">
           <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
