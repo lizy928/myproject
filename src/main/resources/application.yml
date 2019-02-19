@@ -17,6 +17,7 @@ spring:
     password: admin
   data:
     solr:
-      host:
+      host: http://47.107.92.79:8983/solr/new_core
+
 
 
