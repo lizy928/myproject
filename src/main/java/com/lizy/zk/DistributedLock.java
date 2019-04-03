@@ -88,6 +88,7 @@ public class DistributedLock extends ConnectionWatcher{
                     while(true){
                         if (checkState(groupPath,myName)) {
                             Thread.sleep(3000);
+
                             System.out.println(new Date() + " 系统关闭！");
                             System.exit(0);
                         }
