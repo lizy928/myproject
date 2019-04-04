@@ -31,6 +31,7 @@ public class ZooKeeperProSync implements Watcher {
         Thread.sleep(Integer.MAX_VALUE);
     }
 
+    @Override
     public void process(WatchedEvent event) {
         if (Event.KeeperState.SyncConnected == event.getState()) {  //zk连接成功通知事件
             if (Event.EventType.None == event.getType() && null == event.getPath()) {

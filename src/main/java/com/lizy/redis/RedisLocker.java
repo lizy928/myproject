@@ -29,6 +29,7 @@ public class RedisLocker implements DistributedLocker {
     @Override
     public <T> T lock(String resourceName, AquiredLockWorker<T> worker, int lockTime) throws UnableToAquireLockException, Exception {
         RedissonClient redisson= redissonConnector.getClient();
+        redissonConnector.init();
         RLock lock = redisson.getLock(LOCKER_PREFIX + resourceName);
         // Wait for 100 seconds seconds and automatically unlock it after lockTime seconds
         boolean success = lock.tryLock(100, lockTime, TimeUnit.SECONDS);
