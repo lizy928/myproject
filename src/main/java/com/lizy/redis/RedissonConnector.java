@@ -2,6 +2,8 @@ package com.lizy.redis;
 
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
+import org.redisson.config.Config;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -11,10 +13,16 @@ import javax.annotation.PostConstruct;
  */
 @Component
 public class RedissonConnector {
+
+    /*@Value("spring.redis.host")
+    private String redisHost;*/
+
     RedissonClient redisson;
     @PostConstruct
     public void init(){
-        redisson = Redisson.create();
+        Config config = new Config();
+        config.useSingleServer().setAddress("47.107.92.79:6379");
+        redisson = Redisson.create(config);
     }
 
     public RedissonClient getClient(){
