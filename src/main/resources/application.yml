@@ -1,23 +1,27 @@
 server:
-  port: 8081
+  port: 8080
 
 
 spring:
   redis:
     port: 6379
-    host: 47.107.92.79
+    host: 106.13.139.156
     jedis:
       pool:
         max-active: 8
         max-idle: 8
+    database: 
   rabbitmq:
-    host: 47.107.92.79
+    host: 106.13.139.156
     port: 5672
     username: admin
-    password: admin
+    password: 123456
   data:
     solr:
       host: http://47.107.92.79:8983/solr/new_core
-
+  thymeleaf:
+    cache: false
+    prefix: classpath:/template/
+    suffix: .html
 
 
